@@ -30,9 +30,9 @@ public class Profile {
     }
 
     // Getters and Setters
-    // public String getId() {
-    //     return id.toHexString();
-    // }
+    public String getId() {
+        return id.toHexString();
+    }
 
     public void setId(ObjectId id) {
         this.id = id;
